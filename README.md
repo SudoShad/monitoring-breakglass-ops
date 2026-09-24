@@ -12,14 +12,14 @@ Portfolio lab that shows how a junior sysadmin / deskside engineer thinks when m
 
 ## Problem
 
-Helpdesk and junior sysadmin interviews ask more than "I can ping a host." Employers want evidence you can:
+Helpdesk and junior sysadmin interviews ask more than “I can ping a host.” Employers want evidence you can:
 
 - Triage monitoring alerts by severity (P1–P3) without panicking
 - Communicate cleanly during an incident (who / what / next update)
 - Treat break-glass / emergency admin access as a controlled, logged, time-bound exception — not a standing privilege
 - Revoke elevated sessions after the window closes
 
-Most "ops" GitHub repos either dump dashboards with no procedure or hand-wave break-glass with real credentials. This one is documentation + demos you can run locally and talk through in an interview.
+Most “ops” GitHub repos either dump dashboards with no procedure or hand-wave break-glass with real credentials. This one is documentation + demos you can run locally and talk through in an interview.
 
 ---
 
