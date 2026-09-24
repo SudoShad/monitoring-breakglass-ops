@@ -1,0 +1,9 @@
+{
+  "alertname": "VpnGatewayDown",
+  "severity": "P1",
+  "instance": "vpn-gw-01.contoso.example",
+  "startsAt": "2026-09-24T18:05:00Z",
+  "summary": "VPN gateway health check failed for 3 consecutive intervals. Remote users cannot connect.",
+  "team": "network-helpdesk",
+  "runbook": "docs/RUNBOOK.md"
+}

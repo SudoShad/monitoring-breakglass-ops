@@ -1,0 +1,9 @@
+{
+  "alertname": "DiskSpaceWarning",
+  "severity": "P3",
+  "instance": "fs01.contoso.example",
+  "startsAt": "2026-09-23T09:00:00Z",
+  "summary": "Volume D: crossed 80% used. No service impact yet. Schedule cleanup.",
+  "team": "desktop-support",
+  "runbook": "docs/RUNBOOK.md"
+}

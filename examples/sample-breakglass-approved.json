@@ -1,0 +1,24 @@
+{
+  "ticketId": "BG-20260924-1001",
+  "type": "break-glass-request",
+  "status": "approved",
+  "requester": "jdoe",
+  "approver": "asmith",
+  "secondApprover": null,
+  "roleRequested": "Emergency-Helpdesk-Elevated",
+  "scope": "Read-only restore of reporting DB + session revoke on compromised shared mailbox operator",
+  "reason": "P1 — VPN restored but reporting DB login path blocked for helpdesk; need temporary elevated group to finish restore verification.",
+  "durationMinutes": 45,
+  "requestedAt": "2026-09-24T18:15:00-04:00",
+  "approvedAt": "2026-09-24T18:17:00-04:00",
+  "plannedEndAt": "2026-09-24T19:00:00-04:00",
+  "dualControl": true,
+  "secretsInRepo": false,
+  "revokeRequired": true,
+  "revokeConfirmedAt": null,
+  "audit": {
+    "monitoringAlertId": "ALERT-77821",
+    "incidentChannel": "#inc-vpn-2026-09-24",
+    "notes": "EXAMPLE approved ticket shape only. No real credentials. Revoke sessions before closing."
+  }
+}

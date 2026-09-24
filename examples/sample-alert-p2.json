@@ -1,0 +1,9 @@
+{
+  "alertname": "HelpdeskPortalDegraded",
+  "severity": "P2",
+  "instance": "osticket.contoso.example",
+  "startsAt": "2026-09-24T14:20:00Z",
+  "summary": "Ticket portal p95 latency above 3s. Users can still open tickets; search is slow.",
+  "team": "apps-support",
+  "runbook": "docs/RUNBOOK.md"
+}
